@@ -1,0 +1,15 @@
+@import "styles/mixins";
+
+.front-page {
+  @include backgroundImageWithOpacity("/assets/images/header-bg.jpg");
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+}

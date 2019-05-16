@@ -1,0 +1,21 @@
+@mixin backgroundImageWithOpacity($imgURL, $opacity: 1, $min-height: 0) {
+  position: relative;
+  overflow: hidden;
+
+  &:after {
+    content: "";
+    background-image: url($imgURL);
+    background-position: 20% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: $opacity;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    min-height: $min-height;
+    z-index: -1;
+    @content;
+  }
+}

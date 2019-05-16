@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+.title {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-align: center;
+  margin-right: 1em;
+  margin-left: 1em;
+
+  @media only screen and (min-width: $tablet) {
+    font-size: 6.4rem;
+  }
+
+  @media only screen and (min-width: $laptop) {
+    font-size: 7.2rem;
+  }
+}

@@ -1,4 +1,4 @@
 export default {
   inviteURL:
-    "https://appnorge.slack.com/join/shared_invite/enQtNjM5MDk5MDA1NzE5LTQ2MzlmNmY2YzAyOWFiMDNiMzUxYTY0MGEyYWI2MTE3MDBkMTVjMGZhYmQzYmRkZWRjYTZjMGE5ZjM0ZmM2YjE"
+    "https://join.slack.com/t/appnorge/shared_invite/enQtNjM5MDk5MDA1NzE5LWUyZjdhNjMwNWFlYTA5OTg3YjAxZWUxMzA0ZDMwNTExZDkxOWFiZDNiNjJjYzM4ZmY5NjcxNmNjN2RkMTgzOGY"
 };

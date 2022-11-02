@@ -1,5 +1,5 @@
-import FrontPage from "components/FrontPage";
 import React, { Component } from "react";
+import FrontPage from "../FrontPage";
 import "./App.scss";
 
 class App extends Component {

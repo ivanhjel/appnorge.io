@@ -1,7 +1,7 @@
-import Link from "components/Link";
-import Title from "components/Title";
-import constants from "config/constants";
 import React, { Component } from "react";
+import constants from "../../config/constants";
+import Link from "../Link";
+import Title from "../Title";
 import "./FrontPage.scss";
 
 class FrontPage extends Component {

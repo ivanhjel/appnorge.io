@@ -1,7 +1,7 @@
 import React from "react";
-import './Title.scss';
+import "./Title.scss";
 
-const Title = props => {
+const Title = (props) => {
   return <h1 className="title">{props.children}</h1>;
 };
 

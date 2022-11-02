@@ -1,8 +1,8 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 import "./Link.scss";
 
-const Link = props => (
+const Link = (props) => (
   <div className="link">
     <a className="link__content" href={props.url} rel="noreferrer nofollow">
       {props.children}
@@ -11,7 +11,7 @@ const Link = props => (
 );
 
 Link.propTypes = {
-  url: PropTypes.string
+  url: PropTypes.string,
 };
 
 export default Link;
